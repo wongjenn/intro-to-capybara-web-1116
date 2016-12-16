@@ -1,1 +1,6 @@
-# Write your code here!
+# Write yoFile config.ru
+require 'sinatra'
+
+require_relative './app'
+
+run Application
